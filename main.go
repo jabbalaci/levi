@@ -4,14 +4,15 @@ package main
 
 import (
 	"fmt"
-	"levi/lib/jfile"
-	"levi/lib/jtext"
 	"os"
+
+	"github.com/jabbalaci/levi/lib/jfile"
+	"github.com/jabbalaci/levi/lib/jtext"
 )
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Println("Usage: levi file1 file2")
+		fmt.Println("Usage: levi file1.txt file2.txt")
 		os.Exit(1)
 	}
 	// else

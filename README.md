@@ -9,4 +9,4 @@ Levenshtein distance of two text files.
 
 ## Installation
 
-    $ go install https://github.com/jabbalaci/levi
+    $ go install github.com/jabbalaci/levi@latest

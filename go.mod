@@ -1,3 +1,3 @@
-module levi
+module github.com/jabbalaci/levi
 
 go 1.19
